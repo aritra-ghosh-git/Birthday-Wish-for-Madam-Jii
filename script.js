@@ -19,7 +19,7 @@ createHearts();
 function startTypewriter(){
 
 const text =
-"🎉 Happy Birthday! 🎉";
+"🥰 Happy Birthday!! Madam Jii 🥰 ";
 
 let i = 0;
 
