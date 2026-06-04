@@ -9,7 +9,27 @@
 </head>
 
 <body>
+<script>
+const password = prompt("🎁 Enter Birthday Password");
 
+if (password !== "@RL2411") {
+    document.body.innerHTML = `
+        <div style="
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            font-family:sans-serif;
+            background:black;
+            color:white;
+            text-align:center;
+        ">
+            <h1>❌ Access Denied</h1>
+        </div>
+    `;
+    throw new Error("Wrong Password");
+}
+</script>
 <audio id="bgMusic" loop>
     <source src="music.mp3" type="audio/mpeg">
 </audio>
